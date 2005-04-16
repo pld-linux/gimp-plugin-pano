@@ -1,0 +1,40 @@
+--- gimp-plugin-ng/help/Makefile.am.orig	2005-01-05 08:38:49.000000000 +0100
++++ gimp-plugin-ng/help/Makefile.am	2005-04-16 15:01:57.082336920 +0200
+@@ -139,13 +139,13 @@
+ CLEANFILES = $(HELP_STAMPS)
+ 
+ install-data-local:
+-	$(mkinstalldirs) $(DATADIR)/help
++	$(mkinstalldirs) $(DESTDIR)$(DATADIR)/help
+ 	@for lang in en $(ALL_LINGUAS); do \
+ 	  echo '-- Installing HTML for '$$lang && \
+-	  $(mkinstalldirs) $(DATADIR)/help/$$lang; \
+-	  cp -r $(top_builddir)/help/html/$$lang/*.html $(DATADIR)/help/$$lang; \
+-	  cp -r $(top_builddir)/help/html/$$lang/*.css $(DATADIR)/help/$$lang; \
+-	  cp -r $(top_builddir)/help/html/$$lang/gimp-help.xml $(DATADIR)/help/$$lang; \
++	  $(mkinstalldirs) $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(top_builddir)/help/html/$$lang/*.html $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(top_builddir)/help/html/$$lang/*.css $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(top_builddir)/help/html/$$lang/gimp-help.xml $(DESTDIR)$(DATADIR)/help/$$lang; \
+ 	done;
+ 
+ else
+@@ -157,13 +157,13 @@
+ all-local: css.stamp images.stamp
+ 
+ install-data-local:
+-	$(mkinstalldirs) $(DATADIR)/help
++	$(mkinstalldirs) $(DESTDIR)$(DATADIR)/help
+ 	@for lang in en $(ALL_LINGUAS); do \
+ 	  echo '-- Installing HTML for '$$lang && \
+-	  $(mkinstalldirs) $(DATADIR)/help/$$lang; \
+-	  cp -r $(srcdir)/html/$$lang/*.html $(DATADIR)/help/$$lang; \
+-	  cp -r $(srcdir)/html/$$lang/*.css $(DATADIR)/help/$$lang; \
+-	  cp -r $(srcdir)/html/$$lang/gimp-help.xml $(DATADIR)/help/$$lang; \
++	  $(mkinstalldirs) $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(srcdir)/html/$$lang/*.html $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(srcdir)/html/$$lang/*.css $(DESTDIR)$(DATADIR)/help/$$lang; \
++	  cp -r $(srcdir)/html/$$lang/gimp-help.xml $(DESTDIR)$(DATADIR)/help/$$lang; \
+ 	done;
+ 
+ endif
