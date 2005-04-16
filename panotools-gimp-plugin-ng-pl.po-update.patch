@@ -1,0 +1,914 @@
+--- gimp-plugin-ng/po/pl.po.orig	2005-01-05 15:33:42.000000000 +0100
++++ gimp-plugin-ng/po/pl.po	2005-04-16 17:21:19.446064400 +0200
+@@ -1,5 +1,5 @@
+ # Polish translations for PanoPlugin package
+-# Polskie t�umaczenia dla pakietu PanoPlugin.
++# Polskie tłumaczenia dla pakietu PanoPlugin.
+ # Copyright (C) 2004 THE PanoPlugin'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PanoPlugin package.
+ # Douglas Wilkins <dwilkins42@users.sourceforge.net>, 2004.
+@@ -8,624 +8,590 @@
+ msgstr ""
+ "Project-Id-Version: PanoPlugin 0.1.0\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2005-01-03 07:16+0200\n"
++"POT-Creation-Date: 2005-04-16 16:32+0200\n"
+ "PO-Revision-Date: 2005-01-05 09:14-0500\n"
+ "Last-Translator: Marek Januszewski <spec@webtech.pl>\n"
+ "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+ "MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=ISO-8859-2\n"
++"Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+ 
+ #. These are defined for translation only
+-#: src/Gimpmain.c:51
++#. Remember not to translate <image>
++#: ../src/Gimpmain.c:52
+ msgid "<Image>/Filters/Panorama Tools"
+-msgstr ""
++msgstr "<Image>/Filters/Panorama - narzędzia"
+ 
+-#: src/Gimpmain.c:52
++#: ../src/Gimpmain.c:53
+ msgid "<Image>/Filters/Pan Controls"
+-msgstr ""
++msgstr "<Image>/Filters/Panorama - ustawienia"
+ 
+-#: src/Gimpmain.c:108
+-#: src/sys_GTK.h:760
+-msgid "Correct"
+-msgstr "Correct"
++#: ../src/Gimpmain.c:109
++msgid "<Image>/Filters/Panorama Tools/Correct"
++msgstr "<Image>/Filters/Panorama - narzędzia/Popraw"
+ 
+-#: src/Gimpmain.c:122
+-msgid "Perspective"
+-msgstr ""
++#: ../src/Gimpmain.c:122
++msgid "<Image>/Filters/Panorama Tools/Perspective"
++msgstr "<Image>/Filters/Panorama - narzędzia/Perspektywa"
+ 
+-#: src/Gimpmain.c:136
+-msgid "Remap"
+-msgstr ""
++#: ../src/Gimpmain.c:135
++msgid "<Image>/Filters/Panorama Tools/Remap"
++msgstr "<Image>/Filters/Panorama - narzędzia/Odwzoruj"
+ 
+-#: src/Gimpmain.c:150
+-msgid "Adjust"
+-msgstr ""
++#: ../src/Gimpmain.c:148
++msgid "<Image>/Filters/Panorama Tools/Adjust"
++msgstr "<Image>/Filters/Panorama - narzędzia/Dostosuj"
+ 
+-#: src/Gimpmain.c:164
+-msgid "Move Right"
+-msgstr "Przesu� w prawo"
+-
+-#: src/Gimpmain.c:178
+-msgid "Move Left"
+-msgstr "Przesu� w lewo"
++#: ../src/Gimpmain.c:161
++msgid "<Image>/Filters/Pan Controls/Move Right"
++msgstr "<Image>/Filters/Panorama - ustawienia/Przesuń w prawo"
+ 
+-#: src/Gimpmain.c:192
+-msgid "Tilt Up"
+-msgstr ""
++#: ../src/Gimpmain.c:174
++msgid "<Image>/Filters/Pan Controls/Move Left"
++msgstr "<Image>/Filters/Panorama - ustawienia/Przesuń w lewo"
+ 
+-#: src/Gimpmain.c:206
+-msgid "Tilt Down"
+-msgstr ""
++#: ../src/Gimpmain.c:187
++msgid "<Image>/Filters/Pan Controls/Tilt Up"
++msgstr "<Image>/Filters/Panorama - ustawienia/Przechyl w górę"
+ 
+-#: src/Gimpmain.c:220
+-msgid "Zoom In"
+-msgstr ""
++#: ../src/Gimpmain.c:200
++msgid "<Image>/Filters/Pan Controls/Tilt Down"
++msgstr "<Image>/Filters/Panorama - ustawienia/Przechyl w dół"
+ 
+-#: src/Gimpmain.c:234
+-msgid "Zoom Out"
+-msgstr ""
++#: ../src/Gimpmain.c:213
++msgid "<Image>/Filters/Pan Controls/Zoom In"
++msgstr "<Image>/Filters/Panorama - ustawienia/Powiększ"
+ 
+-#: src/Gimpmain.c:248
+-msgid "Apply Changes"
+-msgstr "Zastosuj zmiany"
++#: ../src/Gimpmain.c:226
++msgid "<Image>/Filters/Pan Controls/Zoom Out"
++msgstr "<Image>/Filters/Panorama - ustawienia/Zmniejsz"
+ 
+-#: src/Gimpmain.c:262
+-msgid "Get Panorama"
+-msgstr ""
++#: ../src/Gimpmain.c:239
++msgid "<Image>/Filters/Pan Controls/Apply Changes"
++msgstr "<Image>/Filters/Panorama - ustawienia/Zastosuj zmiany"
+ 
+-#: src/Gimpmain.c:276
+-msgid "Increment"
+-msgstr ""
++#: ../src/Gimpmain.c:252
++msgid "<Image>/Filters/Pan Controls/Get Panorama"
++msgstr "<Image>/Filters/Panorama - ustawienia/Uzyskaj panoramę"
++
++#: ../src/Gimpmain.c:265
++msgid "<Image>/Filters/Pan Controls/Increment"
++msgstr "<Image>/Filters/Panorama - ustawienia/Zwiększ"
+ 
+-#: src/PTDialogs.c:52
++#: ../src/PTDialogs.c:52
+ msgid "Remap Options"
+-msgstr ""
++msgstr "Opcje odwzorowania"
+ 
+-#: src/PTDialogs.c:129
++#: ../src/PTDialogs.c:129
+ msgid "Perspective Options"
+-msgstr ""
++msgstr "Opcje perspektywy"
+ 
+-#: src/PTDialogs.c:185
++#: ../src/PTDialogs.c:185
+ msgid "Correction"
+ msgstr "Korekcja"
+ 
+-#: src/PTDialogs.c:267
++#: ../src/PTDialogs.c:267
+ msgid "Fourier Filtering Options"
+-msgstr ""
++msgstr "Opcje filtrowania Fouriera"
+ 
+-#: src/PTDialogs.c:417
++#: ../src/PTDialogs.c:417
+ msgid "Luminance Correction Options"
+-msgstr ""
++msgstr "Opcje korekcji jasności"
+ 
+-#: src/PTDialogs.c:421
++#: ../src/PTDialogs.c:421
+ msgid "Red"
+ msgstr "Czerwony"
+ 
+-#: src/PTDialogs.c:422
++#: ../src/PTDialogs.c:422
+ msgid "Green"
+ msgstr "Zielony"
+ 
+-#: src/PTDialogs.c:423
++#: ../src/PTDialogs.c:423
+ msgid "Blue"
+ msgstr "Niebieski"
+ 
+-#: src/PTDialogs.c:425
++#: ../src/PTDialogs.c:425
+ msgid "Lightness"
+-msgstr ""
++msgstr "Jasność"
+ 
+-#: src/PTDialogs.c:426
++#: ../src/PTDialogs.c:426
+ msgid "Color a"
+ msgstr "Kolor a"
+ 
+-#: src/PTDialogs.c:427
++#: ../src/PTDialogs.c:427
+ msgid "Color b"
+ msgstr "Kolor b"
+ 
+-#: src/PTDialogs.c:499
++#: ../src/PTDialogs.c:499
+ msgid "Horizontal Shift Options"
+-msgstr ""
++msgstr "Opcje przesunięcia poziomego"
+ 
+-#: src/PTDialogs.c:517
++#: ../src/PTDialogs.c:517
+ msgid "Vertical Shift Options"
+-msgstr ""
++msgstr "Opcje przesunięcia pionowego"
+ 
+-#: src/PTDialogs.c:535
++#: ../src/PTDialogs.c:535
+ msgid "Shear Options"
+-msgstr ""
++msgstr "Opcje przycięcia"
+ 
+-#: src/PTDialogs.c:537
+-#: src/sys_GTK.h:596
++#: ../src/PTDialogs.c:537 ../src/sys_GTK.h:596
+ msgid "Vertical"
+ msgstr "Pionowy"
+ 
+-#: src/PTDialogs.c:539
+-#: src/sys_GTK.h:595
++#: ../src/PTDialogs.c:539 ../src/sys_GTK.h:595
+ msgid "Horizontal"
+ msgstr "Poziomy"
+ 
+-#: src/PTDialogs.c:553
++#: ../src/PTDialogs.c:553
+ msgid "Resize Options"
+-msgstr ""
++msgstr "Opcje zmiany rozmiaru"
+ 
+-#: src/PTDialogs.c:555
+-#: src/PTDialogs.c:574
++#: ../src/PTDialogs.c:555 ../src/PTDialogs.c:574
+ msgid "Width"
+-msgstr "Szeroko��"
++msgstr "Szerokość"
+ 
+-#: src/PTDialogs.c:557
+-#: src/PTDialogs.c:576
++#: ../src/PTDialogs.c:557 ../src/PTDialogs.c:576
+ msgid "Height"
+-msgstr "Wysoko��"
++msgstr "Wysokość"
+ 
+-#: src/PTDialogs.c:572
++#: ../src/PTDialogs.c:572
+ msgid "Cut Frame Options"
+-msgstr ""
++msgstr "Opcje ramki obcięcia"
+ 
+-#: src/PTDialogs.c:591
++#: ../src/PTDialogs.c:591
+ msgid "Adjust Options"
+-msgstr ""
++msgstr "Opcje dostosowania"
+ 
+-#: src/PTDialogs.c:640
++#: ../src/PTDialogs.c:640
+ msgid "Options for Insert/Extract"
+-msgstr ""
++msgstr "Opcje wstawienia/wyodrębnienia"
+ 
+-#: src/PTDialogs.c:756
++#: ../src/PTDialogs.c:756
+ msgid "Pan Options"
+-msgstr ""
++msgstr "Opcje panoramy"
+ 
+-#: src/PTDialogs.c:758
++#: ../src/PTDialogs.c:758
+ msgid "Pan Angle"
+-msgstr ""
++msgstr "Kąt panoramy"
+ 
+-#: src/PTDialogs.c:759
++#: ../src/PTDialogs.c:759
+ msgid "Zoom (%)"
+-msgstr ""
++msgstr "Powiększenie (%)"
+ 
+-#: src/PTDialogs.c:774
++#: ../src/PTDialogs.c:774
+ msgid "Interpolation Options"
+-msgstr ""
++msgstr "Opcje interpolacji"
+ 
+-#: src/PTDialogs.c:827
+-#: src/PTDialogs.c:874
+-#: src/PTDialogs.c:933
+-#: src/sys_GTK.h:338
+-#: src/sys_GTK.h:401
+-#: src/sys_GTK.h:508
+-#: src/sys_GTK.h:696
++#: ../src/PTDialogs.c:827 ../src/PTDialogs.c:874 ../src/PTDialogs.c:933
++#: ../src/sys_GTK.h:338 ../src/sys_GTK.h:401 ../src/sys_GTK.h:508
++#: ../src/sys_GTK.h:696
+ msgid "Preferences"
+-msgstr "Preferencje"
++msgstr "Ustawienia"
+ 
+-#: src/sys_GTK.c:411
++#: ../src/sys_GTK.c:415
+ msgid "Save corrections as..."
+ msgstr "Zapisz korekcje jako..."
+ 
+-#: src/sys_GTK.c:424
++#: ../src/sys_GTK.c:428
+ msgid "Corrections"
+ msgstr "Korekcje"
+ 
+-#: src/sys_GTK.c:455
++#: ../src/sys_GTK.c:459
+ msgid "Please find corrections file..."
+-msgstr ""
++msgstr "Proszę znaleźć plik korekcji..."
+ 
+-#: src/sys_GTK.c:509
++#: ../src/sys_GTK.c:513
+ msgid "Find/Set file..."
+-msgstr ""
++msgstr "Znajdź/ustaw plik..."
+ 
+-#: src/sys_GTK.h:204
++#: ../src/sys_GTK.h:204
+ msgid "Settings"
+ msgstr "Ustawienia"
+ 
+-#: src/sys_GTK.h:318
+-#: src/sys_GTK.h:373
+-#: src/sys_GTK.h:757
+-#: src/sys_GTK.h:787
++#: ../src/sys_GTK.h:318 ../src/sys_GTK.h:373 ../src/sys_GTK.h:757
++#: ../src/sys_GTK.h:787
+ msgid "HFoV:"
+-msgstr ""
++msgstr "Poziome pole widzenia:"
+ 
+-#: src/sys_GTK.h:319
++#: ../src/sys_GTK.h:319
+ msgid "VFoV:"
+-msgstr ""
++msgstr "Pionowe pole widzenia:"
+ 
+-#: src/sys_GTK.h:320
++#: ../src/sys_GTK.h:320
+ msgid "From:"
+ msgstr "Z:"
+ 
+-#: src/sys_GTK.h:321
+-#: src/sys_GTK.h:329
+-#: src/sys_GTK.h:870
++#: ../src/sys_GTK.h:321 ../src/sys_GTK.h:329 ../src/sys_GTK.h:870
+ msgid "Normal"
+ msgstr "Normalna"
+ 
+-#: src/sys_GTK.h:322
+-#: src/sys_GTK.h:330
++#: ../src/sys_GTK.h:322 ../src/sys_GTK.h:330
+ msgid "QTVR"
+ msgstr "QTVR"
+ 
+-#: src/sys_GTK.h:323
+-#: src/sys_GTK.h:331
+-#: src/sys_GTK.h:785
++#: ../src/sys_GTK.h:323 ../src/sys_GTK.h:331 ../src/sys_GTK.h:785
+ msgid "PSphere"
+ msgstr "PSphere"
+ 
+-#: src/sys_GTK.h:324
+-#: src/sys_GTK.h:332
++#: ../src/sys_GTK.h:324 ../src/sys_GTK.h:332
+ msgid "Fisheye hor."
+ msgstr "Rybie oko poziome"
+ 
+-#: src/sys_GTK.h:325
+-#: src/sys_GTK.h:333
++#: ../src/sys_GTK.h:325 ../src/sys_GTK.h:333
+ msgid "Fisheye vert."
+ msgstr "Rybie oko pionowe"
+ 
+-#: src/sys_GTK.h:326
+-#: src/sys_GTK.h:334
++#: ../src/sys_GTK.h:326 ../src/sys_GTK.h:334
+ msgid "Convex mirror"
+-msgstr ""
++msgstr "Lustro wypukłe"
+ 
+-#: src/sys_GTK.h:328
++#: ../src/sys_GTK.h:328
+ msgid "To:"
+ msgstr "Do:"
+ 
+-#: src/sys_GTK.h:367
+-#: src/sys_GTK.h:751
+-#: src/sys_GTK.h:782
++#: ../src/sys_GTK.h:367 ../src/sys_GTK.h:751 ../src/sys_GTK.h:782
+ msgid "Format:"
+ msgstr "Format:"
+ 
+-#: src/sys_GTK.h:368
++#: ../src/sys_GTK.h:368
+ msgid "Turn to:"
+-msgstr ""
++msgstr "Obróć do"
+ 
+-#: src/sys_GTK.h:369
++#: ../src/sys_GTK.h:369
+ msgid "Horizontal:"
+ msgstr "Poziomy:"
+ 
+-#: src/sys_GTK.h:370
++#: ../src/sys_GTK.h:370
+ msgid "Vertical:"
+ msgstr "Pionowy:"
+ 
+-#: src/sys_GTK.h:371
++#: ../src/sys_GTK.h:371
+ msgid "Rotate:"
+-msgstr "Obr��:"
++msgstr "Obróć:"
+ 
+-#: src/sys_GTK.h:372
++#: ../src/sys_GTK.h:372
+ msgid "Size:"
+ msgstr "Rozmiar:"
+ 
+-#: src/sys_GTK.h:374
+-#: src/sys_GTK.h:758
+-#: src/sys_GTK.h:788
++#: ../src/sys_GTK.h:374 ../src/sys_GTK.h:758 ../src/sys_GTK.h:788
+ msgid "Width:"
+-msgstr "Szeroko��:"
++msgstr "Szerokość:"
+ 
+-#: src/sys_GTK.h:375
+-#: src/sys_GTK.h:759
+-#: src/sys_GTK.h:789
++#: ../src/sys_GTK.h:375 ../src/sys_GTK.h:759 ../src/sys_GTK.h:789
+ msgid "Height:"
+-msgstr "Wysoko��:"
++msgstr "Wysokość:"
+ 
+-#: src/sys_GTK.h:383
++#: ../src/sys_GTK.h:383
+ msgid "Fisheye"
+ msgstr "Rybie oko"
+ 
+-#: src/sys_GTK.h:384
+-#: src/sys_GTK.h:752
+-#: src/sys_GTK.h:783
++#: ../src/sys_GTK.h:384 ../src/sys_GTK.h:752 ../src/sys_GTK.h:783
+ msgid "Rectilinear"
+ msgstr "Prostoliniowa"
+ 
+-#: src/sys_GTK.h:398
++#: ../src/sys_GTK.h:398
+ msgid "Pixels"
+-msgstr ""
++msgstr "Piksele"
+ 
+-#: src/sys_GTK.h:399
++#: ../src/sys_GTK.h:399
+ msgid "Degrees"
+ msgstr "Stopnie"
+ 
+-#: src/sys_GTK.h:408
++#: ../src/sys_GTK.h:408
+ msgid "Source"
+-msgstr "�r�d�o"
++msgstr "Źródło"
+ 
+-#: src/sys_GTK.h:442
+-#: src/sys_GTK.h:594
++#: ../src/sys_GTK.h:442 ../src/sys_GTK.h:594
+ msgid "Radial"
+-msgstr ""
++msgstr "Promień"
+ 
+-#: src/sys_GTK.h:443
++#: ../src/sys_GTK.h:443
+ msgid "Vertical shift"
+-msgstr "Przesuni�cie pionowe"
++msgstr "Przesunięcie pionowe"
+ 
+-#: src/sys_GTK.h:444
++#: ../src/sys_GTK.h:444
+ msgid "Horizontal shift"
+-msgstr "Przesuni�cie poziome"
++msgstr "Przesunięcie poziome"
+ 
+-#: src/sys_GTK.h:445
++#: ../src/sys_GTK.h:445
+ msgid "Shear"
+-msgstr ""
++msgstr "Przycięcie"
+ 
+-#: src/sys_GTK.h:446
++#: ../src/sys_GTK.h:446
+ msgid "Scale"
+-msgstr ""
++msgstr "Skalowanie"
+ 
+-#: src/sys_GTK.h:447
++#: ../src/sys_GTK.h:447
+ msgid "Radial luminance"
+-msgstr ""
++msgstr "Jasność promieniowa"
+ 
+-#: src/sys_GTK.h:448
++#: ../src/sys_GTK.h:448
+ msgid "Cut frame"
+-msgstr ""
++msgstr "Ramka obcięcia"
+ 
+-#: src/sys_GTK.h:449
++#: ../src/sys_GTK.h:449
+ msgid "Fourier filter"
+-msgstr ""
++msgstr "Filtr Fouriera"
+ 
+-#: src/sys_GTK.h:451
+-#: src/sys_GTK.h:458
+-#: src/sys_GTK.h:465
+-#: src/sys_GTK.h:472
+-#: src/sys_GTK.h:479
+-#: src/sys_GTK.h:486
+-#: src/sys_GTK.h:493
+-#: src/sys_GTK.h:500
++#: ../src/sys_GTK.h:451 ../src/sys_GTK.h:458 ../src/sys_GTK.h:465
++#: ../src/sys_GTK.h:472 ../src/sys_GTK.h:479 ../src/sys_GTK.h:486
++#: ../src/sys_GTK.h:493 ../src/sys_GTK.h:500
+ msgid "Options"
+ msgstr "Opcje"
+ 
+-#: src/sys_GTK.h:517
++#: ../src/sys_GTK.h:517
+ msgid "Load"
+-msgstr "�aduj"
++msgstr "Ładuj"
+ 
+-#: src/sys_GTK.h:523
++#: ../src/sys_GTK.h:523
+ msgid "Save"
+ msgstr "Zapisz"
+ 
+-#: src/sys_GTK.h:540
+-#: src/sys_GTK.h:571
++#: ../src/sys_GTK.h:540 ../src/sys_GTK.h:571
+ msgid "Red:"
+ msgstr "Czerwony:"
+ 
+-#: src/sys_GTK.h:541
+-#: src/sys_GTK.h:572
++#: ../src/sys_GTK.h:541 ../src/sys_GTK.h:572
+ msgid "Green:"
+ msgstr "Zielony:"
+ 
+-#: src/sys_GTK.h:542
+-#: src/sys_GTK.h:573
++#: ../src/sys_GTK.h:542 ../src/sys_GTK.h:573
+ msgid "Blue:"
+ msgstr "Niebieski:"
+ 
+-#: src/sys_GTK.h:593
++#: ../src/sys_GTK.h:593
+ msgid "Correction mode:"
+-msgstr ""
++msgstr "Tryb korekcji:"
+ 
+-#: src/sys_GTK.h:654
++#: ../src/sys_GTK.h:654
+ msgid "Action:"
+-msgstr ""
++msgstr "Akcja:"
+ 
+-#: src/sys_GTK.h:655
++#: ../src/sys_GTK.h:655
+ msgid "Insert into panorama"
+-msgstr ""
++msgstr "Wstaw do panoramy"
+ 
+-#: src/sys_GTK.h:656
++#: ../src/sys_GTK.h:656
+ msgid "Extract from panorama"
+-msgstr ""
++msgstr "Wyodrębnij z panoramy"
+ 
+-#: src/sys_GTK.h:657
++#: ../src/sys_GTK.h:657
+ msgid "Read marked controlpoints"
+-msgstr ""
++msgstr "Odczytaj zaznaczone punkty kontrolne"
+ 
+-#: src/sys_GTK.h:658
++#: ../src/sys_GTK.h:658
+ msgid "Run position optimizer"
+-msgstr ""
++msgstr "Uruchom optymalizator pozycji"
+ 
+-#: src/sys_GTK.h:660
++#: ../src/sys_GTK.h:660
+ msgid "Parameters:"
+ msgstr "Parametry:"
+ 
+-#: src/sys_GTK.h:678
++#: ../src/sys_GTK.h:678
+ msgid "Use options"
+-msgstr "U�yj opcji"
++msgstr "Użyj opcji"
+ 
+-#: src/sys_GTK.h:679
++#: ../src/sys_GTK.h:679
+ msgid "Use script"
+-msgstr "U�yj skryptu"
++msgstr "Użyj skryptu"
+ 
+-#: src/sys_GTK.h:682
++#: ../src/sys_GTK.h:682
+ msgid "Set"
+ msgstr "Ustaw"
+ 
+-#: src/sys_GTK.h:689
+-#: src/sys_GTK.h:910
+-#: src/sys_GTK.h:935
++#: ../src/sys_GTK.h:689 ../src/sys_GTK.h:910 ../src/sys_GTK.h:935
+ msgid "Browse"
+-msgstr ""
++msgstr "Przeglądaj"
+ 
+-#: src/sys_GTK.h:741
++#: ../src/sys_GTK.h:741
+ msgid "Image:"
+-msgstr "Zdj�cie:"
++msgstr "Zdjęcie:"
+ 
+-#: src/sys_GTK.h:753
++#: ../src/sys_GTK.h:753
+ msgid "Panoramic"
+-msgstr ""
++msgstr "Panoramiczny"
+ 
+-#: src/sys_GTK.h:754
++#: ../src/sys_GTK.h:754
+ msgid "Fisheye fullfr."
+-msgstr ""
++msgstr "Rybie oko - prostokąt"
+ 
+-#: src/sys_GTK.h:755
++#: ../src/sys_GTK.h:755
+ msgid "Fisheye circ."
+-msgstr ""
++msgstr "Rybie oko - koło"
+ 
+-#: src/sys_GTK.h:756
++#: ../src/sys_GTK.h:756
+ msgid "Equirectangular."
+-msgstr ""
++msgstr "Równoprostokątny"
++
++#: ../src/sys_GTK.h:760
++msgid "Correct"
++msgstr "Popraw"
+ 
+-#: src/sys_GTK.h:772
++#: ../src/sys_GTK.h:772
+ msgid "Panorama:"
+ msgstr "Panorama:"
+ 
+-#: src/sys_GTK.h:784
++#: ../src/sys_GTK.h:784
+ msgid "QTVR-Panorama"
+-msgstr ""
++msgstr "Panorama QTVR"
+ 
+-#: src/sys_GTK.h:786
++#: ../src/sys_GTK.h:786
+ msgid "Save to Buffer"
+ msgstr "Zapisz do bufora"
+ 
+-#: src/sys_GTK.h:796
++#: ../src/sys_GTK.h:796
+ msgid "Position:"
+ msgstr "Pozycja:"
+ 
+-#: src/sys_GTK.h:806
++#: ../src/sys_GTK.h:806
+ msgid "Yaw: -180...+180"
+-msgstr ""
++msgstr "Yaw: -180...+180"
+ 
+-#: src/sys_GTK.h:807
++#: ../src/sys_GTK.h:807
+ msgid "Pitch: -90...+90"
+-msgstr ""
++msgstr "Pitch: -90...+90"
+ 
+-#: src/sys_GTK.h:808
++#: ../src/sys_GTK.h:808
+ msgid "Roll:"
+-msgstr ""
++msgstr "Roll:"
+ 
+-#: src/sys_GTK.h:815
++#: ../src/sys_GTK.h:815
+ msgid "Stitching:"
+-msgstr ""
++msgstr "Składanie:"
+ 
+-#: src/sys_GTK.h:825
++#: ../src/sys_GTK.h:825
+ msgid "Load Buffer and "
+-msgstr "Za�aduj bufor i "
++msgstr "Załaduj bufor i "
+ 
+-#: src/sys_GTK.h:832
++#: ../src/sys_GTK.h:832
+ msgid "blend or"
+-msgstr ""
++msgstr "mieszaj lub"
+ 
+-#: src/sys_GTK.h:833
++#: ../src/sys_GTK.h:833
+ msgid "paste"
+ msgstr "wklej"
+ 
+-#: src/sys_GTK.h:834
++#: ../src/sys_GTK.h:834
+ msgid "Feather:"
+-msgstr ""
++msgstr "Pokrycie:"
+ 
+-#: src/sys_GTK.h:836
++#: ../src/sys_GTK.h:836
+ msgid "Color Adjustment:"
+-msgstr ""
++msgstr "Dostosowanie koloru:"
+ 
+-#: src/sys_GTK.h:837
++#: ../src/sys_GTK.h:837
+ msgid "Image"
+-msgstr "Zdj�cie"
++msgstr "Zdjęcie"
+ 
+-#: src/sys_GTK.h:838
++#: ../src/sys_GTK.h:838
+ msgid "Buffer"
+ msgstr "Bufor"
+ 
+-#: src/sys_GTK.h:839
++#: ../src/sys_GTK.h:839
+ msgid "Both"
+ msgstr "Oba"
+ 
+-#: src/sys_GTK.h:840
++#: ../src/sys_GTK.h:840
+ msgid "None"
+-msgstr "�adne"
++msgstr "Żadne"
+ 
+-#: src/sys_GTK.h:859
++#: ../src/sys_GTK.h:859
+ msgid "<- Faster"
+ msgstr "<- Szybciej"
+ 
+-#: src/sys_GTK.h:860
++#: ../src/sys_GTK.h:860
+ msgid "Better ->"
+ msgstr "Lepiej ->"
+ 
+-#: src/sys_GTK.h:862
++#: ../src/sys_GTK.h:862
+ msgid "Use Algorithm:"
+-msgstr "U�yj algorytmu:"
++msgstr "Użyj algorytmu:"
+ 
+-#: src/sys_GTK.h:863
++#: ../src/sys_GTK.h:863
+ msgid "Polynomial 16 pixels"
+-msgstr ""
++msgstr "Wielomian 16 pikseli"
+ 
+-#: src/sys_GTK.h:864
++#: ../src/sys_GTK.h:864
+ msgid "Spline\t\t16 pixels"
+-msgstr ""
++msgstr "Splajn\t\t16 pikseli"
+ 
+-#: src/sys_GTK.h:865
++#: ../src/sys_GTK.h:865
+ msgid "Spline\t\t36 pixels"
+-msgstr ""
++msgstr "Splajn\t\t36 pikseli"
+ 
+-#: src/sys_GTK.h:866
++#: ../src/sys_GTK.h:866
+ msgid "Sinc\t\t256 pixels"
+-msgstr ""
++msgstr "Sinc\t\t256 pikseli"
+ 
+-#: src/sys_GTK.h:867
++#: ../src/sys_GTK.h:867
+ msgid "Sinc\t\t1024 pixels"
+-msgstr ""
++msgstr "Sinc\t\t1024 piksele"
+ 
+-#: src/sys_GTK.h:869
++#: ../src/sys_GTK.h:869
+ msgid "Interpolation speed:"
+-msgstr "Szybko�� interpolacji:"
++msgstr "Szybkość interpolacji:"
+ 
+-#: src/sys_GTK.h:871
++#: ../src/sys_GTK.h:871
+ msgid "Medium"
+-msgstr "�rednia"
++msgstr "Średnia"
+ 
+-#: src/sys_GTK.h:872
++#: ../src/sys_GTK.h:872
+ msgid "Fast"
+ msgstr "Szybka"
+ 
+-#: src/sys_GTK.h:874
++#: ../src/sys_GTK.h:874
+ msgid "Gamma:"
+-msgstr ""
++msgstr "Gamma:"
+ 
+-#: src/sys_GTK.h:885
++#: ../src/sys_GTK.h:885
+ msgid "If source and result size differ:"
+-msgstr ""
++msgstr "Jeśli rozmiar źródłowy i wynikowy się różnią:"
+ 
+-#: src/sys_GTK.h:886
++#: ../src/sys_GTK.h:886
+ msgid "Display cropped/framed image"
+-msgstr ""
++msgstr "Wyświetl przycięte/obramowane zdjęcie"
+ 
+-#: src/sys_GTK.h:887
++#: ../src/sys_GTK.h:887
+ msgid "Resize image"
+-msgstr ""
++msgstr "Zmień rozmiar zdjęcia"
+ 
+-#: src/sys_GTK.h:889
++#: ../src/sys_GTK.h:889
+ msgid "More"
+-msgstr "Wi�cej"
++msgstr "Więcej"
+ 
+-#: src/sys_GTK.h:909
++#: ../src/sys_GTK.h:909
+ msgid "Point spread image:"
+-msgstr ""
++msgstr "Rozciągnięcie zdjęcia:"
+ 
+-#: src/sys_GTK.h:917
++#: ../src/sys_GTK.h:917
+ msgid "Mode:"
+ msgstr "Tryb:"
+ 
+-#: src/sys_GTK.h:924
++#: ../src/sys_GTK.h:924
+ msgid "Add blur"
+-msgstr ""
++msgstr "Dodanie rozmycia"
+ 
+-#: src/sys_GTK.h:925
++#: ../src/sys_GTK.h:925
+ msgid "Remove blur"
+-msgstr ""
++msgstr "Usunięcie rozmycia"
+ 
+-#: src/sys_GTK.h:926
++#: ../src/sys_GTK.h:926
+ msgid "Noise reduction"
+ msgstr "Redukcja szumu"
+ 
+-#: src/sys_GTK.h:933
++#: ../src/sys_GTK.h:933
+ msgid "Internal"
+-msgstr ""
++msgstr "Wewnętrzne"
+ 
+-#: src/sys_GTK.h:934
++#: ../src/sys_GTK.h:934
+ msgid "External"
+-msgstr ""
++msgstr "Zewnętrzne"
+ 
+-#: src/sys_GTK.h:941
++#: ../src/sys_GTK.h:941
+ msgid "Filter factor:"
+-msgstr ""
++msgstr "Współczynnik filtru:"
+ 
+-#: src/sys_GTK.h:943
++#: ../src/sys_GTK.h:943
+ msgid "Frame"
+ msgstr "Ramka"
+-
+--- gimp-plugin-ng/configure.ac.orig	2005-01-05 20:31:27.000000000 +0100
++++ gimp-plugin-ng/configure.ac	2005-04-16 17:22:20.438792096 +0200
+@@ -79,10 +79,7 @@
+ 
+ dnl Add the languages which your application supports here.
+ dnl for testing, uncomment this
+-dnl ALL_LINGUAS="de fr pl"
+-
+-dnl Until I18N is complete, use this
+-ALL_LINGUAS=""
++ALL_LINGUAS="de fr pl"
+ 
+ AC_PROG_INTLTOOL
+ AM_GLIB_GNU_GETTEXT
