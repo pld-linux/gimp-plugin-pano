@@ -1,5 +1,5 @@
 Summary:	Panotools GIMP Plug-In
-Summary(pl):	Wtyczka Panotools dla GIMP-a
+Summary(pl.UTF-8):   Wtyczka Panotools dla GIMP-a
 Name:		gimp-plugin-pano
 Version:	0.1.0
 %define	snap	20050403
@@ -29,8 +29,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package implements Panotools for GIMP 2.0 and later..
 
-%description -l pl
-Ten pakiet jest implementacj± Panotools dla GIMP-a 2.0 i pó¼niejszych.
+%description -l pl.UTF-8
+Ten pakiet jest implementacjÄ… Panotools dla GIMP-a 2.0 i pÃ³Åºniejszych.
 
 %prep
 %setup -q -n gimp-plugin-ng
