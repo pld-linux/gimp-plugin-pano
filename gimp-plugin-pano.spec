@@ -34,8 +34,8 @@ Ten pakiet jest implementacją Panotools dla GIMP-a 2.0 i późniejszych.
 
 %prep
 %setup -q -n gimp-plugin-ng
-%patch0 -p1
-%patch1 -p1
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__glib_gettextize}
